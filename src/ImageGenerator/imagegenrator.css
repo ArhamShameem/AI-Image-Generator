@@ -1,0 +1,79 @@
+.ai-image-generator{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    gap: 30px;
+}
+.header{
+    font-size: 70px;
+    font-weight:500;
+    padding-bottom:10px ;
+
+}
+.header span{
+    color: #DE1B89;
+    font: 600;
+}
+.image-loading{
+    display: flex;
+    flex-direction: column;
+}
+.image-loading img{
+    width: 512px;
+    height: 400px;
+}
+.button{
+width: 600px;
+height: 50px;
+background:transparent;
+border: none;
+outline: none;
+font-size: 18px;
+color: white;
+padding-left: 35px;
+margin-right: 35px;
+}
+.search-box{
+    display: flex;
+    width: 1000px;
+    height: 95px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 50px;
+    background:#1F3540 ;
+}
+.generate-button{
+    background-color:#DE1B89 ;
+    color: white;
+    border-radius: 50px;
+    width: 200px;
+    /* height: 60px; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+.generate-button:hover{
+cursor: pointer;
+}
+.github{
+   text-align: left ;
+   display: flex;
+   flex-direction: row;
+   font-size: 20px;
+  color: white;
+  text-decoration: none;
+   
+}
+.github:hover{
+    color: #DE1B89
+}
+a {
+    text-decoration: none;
+}
